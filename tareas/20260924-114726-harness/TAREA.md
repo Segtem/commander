@@ -22,3 +22,7 @@ testigos, costo. `dsh` está en preview y avisa cambios incompatibles: fijar la 
 ## Próximo paso
 
 Esperar al corte 1.
+
+### Nota (2026-09-24 11:54:28 UTC)
+
+2026-09-24, Brian y Claude: commander necesita un harness, pero no se escribe uno. El bucle (modelo, herramientas, sesión) es del harness (dsh, Claude Code, Codex); Jam y Oracle se exponen como servidores MCP (el de Oracle ya existe, el de Jam falta y sale de dsl-llm); el método de commander (pedir → crear en Jam → volcar la escena → oracle juzgar → corregir con testigos) se empaqueta como plugin de dsh y como skill/instrucciones para los otros. Así el método no queda atado a un harness en preview y la comparación no reescribe nada.
