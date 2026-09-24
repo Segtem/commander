@@ -17,3 +17,4 @@ Las piezas del motor (sondas, verbos de colocación, medidas del dominio) viven 
 
 - [docs/AURA-Y-ORACLE.md](docs/AURA-Y-ORACLE.md) — qué es Aura y dónde entra Oracle.
 - [docs/AURA-PROPIO-CORTE-1.md](docs/AURA-PROPIO-CORTE-1.md) — el plan del primer corte.
+- [vault-kb/](vault-kb/README.md) — la wiki (vault de Obsidian).
