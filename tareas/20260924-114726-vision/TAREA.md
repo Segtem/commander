@@ -25,6 +25,13 @@ commander usa **Jam y Oracle**, cada uno en su papel:
    `escenario-corte-1` de Jam).
 3. **El agente y el bucle** (tareas `corte-1` y `harness` de acá).
 
+## Estado (2026-09-24)
+
+La auditoría de Jam (`dsl-llm`) está hecha: el DSL es una línea por vez, sin cables y sin ida y
+vuelta con los nodos, y 86 verbos quedan fuera del alcance de un LLM. El trabajo quedó en Jam como
+`dsl-parametros`, `fuente-roja`, `dsl-grafos` (el diseño, con tres modelos a ciegas) y `jam-mcp`.
+Acá: `metodo`, `harness`, `corte-1`, `godot-mcp` y `fuentes`.
+
 ## Próximo paso
 
-La auditoría de `dsl-llm` en Jam: qué se puede hacer por el DSL y qué sólo desde la interfaz.
+`dsl-grafos` en Jam: es lo que desbloquea todo lo demás.
