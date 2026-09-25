@@ -1,1 +1,1 @@
-oracle-metalenguaje==0.30.0
+oracle-metalenguaje==0.31.0
