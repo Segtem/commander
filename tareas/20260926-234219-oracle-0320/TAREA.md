@@ -1,6 +1,6 @@
 # Oracle 0.32.0 (sintaxis 1.0)
 
-- ESTADO: ABIERTA
+- ESTADO: CERRADA
 - PRIORIDAD: 50
 - ETIQUETAS: 
 
