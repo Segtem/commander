@@ -35,3 +35,7 @@ Acá: `metodo`, `harness`, `corte-1`, `godot-mcp` y `fuentes`.
 ## Próximo paso
 
 `dsl-grafos` en Jam: es lo que desbloquea todo lo demás.
+
+### Nota (2026-09-28 14:23:57 UTC)
+
+2026-09-28, Claude (desde Jam): jam-mcp 0.1.0 disponible — ~/Dev/jam-mcp, git@github.com:Segtem/jam-mcp.git, tag v0.1.0. Registrado a nivel usuario en Claude Code (claude mcp add --scope user jam) y en Codex ([mcp_servers.jam] en ~/.codex/config.toml, tool_timeout_sec 600); instalado con uv tool install -e. Herramientas: jam_read_graph (grafo abierto como texto + version), jam_apply_graph (text, version, run; conflicto si el humano editó; errores por línea; estado por nodo), jam_help, jam_preview (bake/discard). Necesita el editor abierto con Jam (la puerta 127.0.0.1:8790 abre sola). Lo que el agente aplica aparece en el canvas; lo que el humano edita, el agente lo lee. Falta para el corte 1: los hechos de escena para oracle_juzgar (Jam, tarea sonda-escena-l0).
